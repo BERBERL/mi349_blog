@@ -2,6 +2,10 @@ html {
     background: #e3e3e3;
 }
 
+img {
+    width: 100% ;
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +21,10 @@ h1 {
     margin: 0px;
 }
 
+h3{
+    text-align: center;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -24,7 +32,7 @@ p {
 #blog {
     border-top:  2px dotted #ddd;
     background: #d6d6d6;
-    display: flex;
+    display: inline-block;
 }
 
 .posts {
@@ -46,15 +54,17 @@ article {
 
 .nav-bar {
     position: sticky;
-    display: flex;
+    display: inline-flex;
     padding: 20px;
     margin: 20px;
     padding-left: 30px;
     background: rgb(245, 255, 231);
+    list-style-type: none;
+    text-align: center;
 }
 
 .nav-bar a{
-    display: flex;
+    display: inline-flex;
     padding: 10px;
     margin: 10px;
     background-color: #ffe7e7;
@@ -70,4 +80,22 @@ article {
     margin-left: 10px;
     font-size: 0.8em;
 
+}
+
+.ps {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.fello {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 400px) {
+    section {
+        background: #e3e3e3
+
+    }
 }
