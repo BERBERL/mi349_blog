@@ -92,6 +92,9 @@ article {
     margin: 0 auto;
 }
 
+.jasperpic {
+    width: 400px;
+}
 
 @media (max-width: 400px) {
     section {
